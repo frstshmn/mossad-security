@@ -1,0 +1,64 @@
+.full-height {
+    height: 100vh;
+}
+
+.color-dark-grey {
+    color: #222;
+}
+
+.color-green {
+    color: #4a4d3d;
+}
+
+.color-pale {
+    color: #f4ead2;
+}
+
+.background-dark-grey {
+    background-color: #222;
+}
+
+.background-green {
+    background-color: #4a4d3d;
+}
+
+.background-green-70 {
+    background-color: rgba(74, 77, 61, 0.8);
+}
+
+.background-pale {
+    background-color: #f4ead2;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.text-wider {
+    letter-spacing: 0.3em;
+}
+
+.font-regular {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-image {
+    background-image: url("images/background_1.png");
+    background-size: cover;
+}
+
+.background-split {
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg, rgba(34,34,34,1) 50%, rgba(74,77,61,1) 50%);
+}
+
+.client img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+a, a:hover {
+    color: #f4ead2;
+}
