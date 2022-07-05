@@ -1,5 +1,13 @@
+body, html {
+    scroll-behavior: smooth;
+}
+
 .full-height {
     height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
 }
 
 .color-dark-grey {
@@ -50,7 +58,13 @@ body {
 
 .background-split {
     background: rgb(34,34,34);
-    background: linear-gradient(0deg, rgba(34,34,34,1) 50%, rgba(74,77,61,1) 50%);
+}
+
+.client {
+    padding: 3em;
+    background-color: #4a4d3d;
+    border-radius: 20px;
+    box-shadow: #111 0px 10px 30px;
 }
 
 .client img {
@@ -63,8 +77,12 @@ a, a:hover {
     color: #f4ead2;
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
 #hero .background-image {
-    background-image: url("https://img.freepik.com/free-photo/police-special-operations-tactical-unit-swat-members-black-uniform-armed-with-service-rifles-standing-stack-formation-during-armed-warrant-suspect-arrest-operation-cropped-shoulder-view_1443-2095.jpg?w=2000");
+    background-image: url("images/hero_bg.png");
     background-size: cover;
 }
 
@@ -76,4 +94,12 @@ a, a:hover {
 #mission .background-image {
     background-image: url("https://i.pinimg.com/736x/28/9b/88/289b887ee42ee601af2f78c008a79a8e.jpg");
     background-size: cover;
+}
+
+.level-1 {
+    z-index: 100;
+}
+
+.level-2 {
+    z-index: 90;
 }
